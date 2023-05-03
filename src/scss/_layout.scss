@@ -1,4 +1,28 @@
 .l-main-header {
-  background: pink;
+  background: url(../img/header-band.webp);
+  background-size: 100%;
   min-height: 620px;
+}
+
+.l-nav {
+  background: url(../img/header-nav.webp);
+  background-size: 100%;
+}
+
+.l-brand {
+  background: url(../img/main-brand.webp);
+  background-size: 1275px 550px;
+  min-height: 537px;
+  background-repeat: no-repeat;
+}
+
+.l-engagements {
+  background: url(../img/main-engagements.webp);
+  background-size: 1275px 550px;
+  min-height: 537px;
+  background-repeat: no-repeat;
+}
+
+.l-recipe {
+  background: url(../img/main-recettes.webp);
 }
