@@ -1,24 +1,36 @@
 .l-main-header {
   background: url(../img/header-band.webp);
   background-size: 100%;
-  min-height: 620px;
+  min-height: 700px;
+  background-repeat: no-repeat;
 }
 
 .l-nav {
   background: url(../img/header-nav.webp);
   background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.l-main-nav {
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .l-brand {
   background: url(../img/main-brand.webp);
-  background-size: 1275px 550px;
+  background-size: 1370px;
   min-height: 537px;
   background-repeat: no-repeat;
+  background-position: center right;
 }
 
 .l-engagements {
   background: url(../img/main-engagements.webp);
-  background-size: 1275px 550px;
+  background-size: 1370px;
   min-height: 537px;
   background-repeat: no-repeat;
 }

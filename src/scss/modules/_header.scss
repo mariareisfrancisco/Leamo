@@ -1,2 +1,43 @@
-.l-main-header {
+h1 {
+  margin-top: 439;
+  font-size: 55px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 61px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 5px;
+}
+
+.nav {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.mini-nav {
+  position: relative;
+}
+
+.l-main-nav a {
+  text-transform: uppercase;
+  font-family: "ofelia-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header img {
+  width: 30px;
+  position: absolute;
+  top: -50px;
+  right: 0;
 }

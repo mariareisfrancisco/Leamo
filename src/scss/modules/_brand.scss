@@ -1,0 +1,54 @@
+p {
+  color: white;
+  font-family: "ofelia-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-family: "ofelia-display", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.l-engagements,
+p h3 {
+  text-align: right;
+}
+
+.marging {
+  padding: 80px 0 80px 80px;
+}
+
+.l-engagements .marging {
+  padding: 80px 80px 80px 0;
+}
+
+.l-engagements .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.l-brand,
+.l-engagements {
+  margin-bottom: 130px;
+}
+
+.small-engagements {
+  margin-bottom: 45px;
+}
+
+.small-logo {
+  padding: 0 0 0 30px;
+}
