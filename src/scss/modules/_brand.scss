@@ -9,6 +9,10 @@ p {
   padding-bottom: 40px;
 }
 
+.l-brand p {
+  padding-bottom: 50px;
+}
+
 h3 {
   font-family: "ofelia-display", sans-serif;
   font-weight: 800;
@@ -40,9 +44,12 @@ p h3 {
   align-items: flex-end;
 }
 
-.l-brand,
+.l-brand {
+  margin-bottom: 100px;
+}
+
 .l-engagements {
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 .small-engagements {

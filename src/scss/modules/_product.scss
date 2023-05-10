@@ -1,0 +1,84 @@
+.product h2 {
+  text-transform: uppercase;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  margin-bottom: 100px;
+}
+
+.products-content h2 {
+  color: white;
+}
+
+.big-bg {
+  background-image: linear-gradient(
+    0deg,
+    #a4be8e 0%,
+    rgba(166, 194, 147, 0) 100%,
+    #a4be8e 100%
+  );
+  width: 635px;
+  height: 610px;
+}
+
+.small-bg {
+  width: 100%px;
+  height: 170px;
+}
+
+.big-bg img {
+  width: 400px;
+}
+
+.cola {
+  background-image: linear-gradient(0deg, #e51200 0%, rgba(217, 17, 0, 0) 100%);
+}
+
+.ginger {
+  background-image: linear-gradient(
+    0deg,
+    #ff9215 0%,
+    rgba(255, 150, 24, 0) 100%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.limonade {
+  background-image: linear-gradient(
+    0deg,
+    #ffd415 0%,
+    rgba(255, 212, 21, 0) 100%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+.small-bg,
+.big-bg {
+  position: relative;
+}
+
+.small-bg img {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+}
+
+.small-bg h2 {
+  font-size: 40px;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+}
+
+.big-bg img {
+  position: absolute;
+  bottom: -75px;
+  left: 10px;
+}
+
+.big-bg h2 {
+  margin: 0;
+  font-size: 50px;
+  position: relative;
+}

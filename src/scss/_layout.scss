@@ -22,19 +22,41 @@
 
 .l-brand {
   background: url(../img/main-brand.webp);
-  background-size: 1370px;
   min-height: 537px;
+  background-size: calc(1320px + (100vw - 1320px) / 2);
   background-repeat: no-repeat;
   background-position: center right;
+
+  @media (max-width: 1400px) {
+    background-size: calc(1140px + (100vw - 1140px) / 2);
+  }
+
+  @media (max-width: 1200px) {
+    background-size: calc(960px + (100vw - 960px) / 2);
+  }
 }
 
 .l-engagements {
   background: url(../img/main-engagements.webp);
-  background-size: 1370px;
+  background-size: calc(1320px + (100vw - 1320px) / 2);
   min-height: 537px;
   background-repeat: no-repeat;
+
+  @media (max-width: 1400px) {
+    background-size: calc(1140px + (100vw - 1140px) / 2);
+  }
+
+  @media (max-width: 1200px) {
+    background-size: calc(960px + (100vw - 960px) / 2);
+  }
 }
 
 .l-recipe {
   background: url(../img/main-recettes.webp);
+}
+
+.l-small-product {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
