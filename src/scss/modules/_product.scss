@@ -20,11 +20,17 @@
   );
   width: 635px;
   height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .small-bg {
   width: 100%px;
   height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .big-bg img {
@@ -68,7 +74,8 @@
   font-size: 40px;
   margin: 0;
   position: relative;
-  bottom: 0;
+  left: 165px;
+  bottom: 25px;
 }
 
 .big-bg img {
@@ -81,4 +88,10 @@
   margin: 0;
   font-size: 50px;
   position: relative;
+  left: 330px;
+}
+
+.big-bg p {
+  position: relative;
+  left: 330px;
 }

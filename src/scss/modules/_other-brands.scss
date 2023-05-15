@@ -1,0 +1,30 @@
+.l-other-brands p {
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #282829;
+  margin-top: 50px;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.l-other-brands h2 {
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.l-brand {
+  min-height: 250px;
+}
+
+.l-brand-one,
+.l-brand-three {
+  position: relative;
+  right: 0;
+}

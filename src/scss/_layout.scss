@@ -53,10 +53,70 @@
 
 .l-recipe {
   background: url(../img/main-recettes.webp);
+  background-size: 101%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
 }
 
 .l-small-product {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+
+.l-button {
+  margin-top: 90px;
+  margin-left: 30px;
+  margin: 90px 0 130px 30px;
+}
+
+.l-brand-one {
+  background: url(../img/main-tensai_tea.webp);
+  margin-top: 20px;
+  background-size: 100%;
+  min-height: 250px;
+  background-size: calc(1320px + (100vw - 1320px) / 2);
+  background-repeat: no-repeat;
+
+  @media (max-width: 1400px) {
+    background-size: calc(1140px + (100vw - 1140px) / 2);
+  }
+
+  @media (max-width: 1200px) {
+    background-size: calc(960px + (100vw - 960px) / 2);
+  }
+}
+
+.l-brand-two {
+  background: url(../img/main-chilled.webp);
+  margin-top: 20px;
+  background-size: 100%;
+  background-size: calc(1320px + (100vw - 1320px) / 2);
+  background-repeat: no-repeat;
+  background-position: right;
+
+  @media (max-width: 1400px) {
+    background-size: calc(1140px + (100vw - 1140px) / 2);
+  }
+
+  @media (max-width: 1200px) {
+    background-size: calc(960px + (100vw - 960px) / 2);
+  }
+}
+
+.l-brand-three {
+  background: url(../img/main-dame_gingembre.webp);
+  margin-top: 20px;
+  background-size: 100%;
+  background-size: calc(1320px + (100vw - 1320px) / 2);
+  min-height: 537px;
+  background-repeat: no-repeat;
+
+  @media (max-width: 1400px) {
+    background-size: calc(1140px + (100vw - 1140px) / 2);
+  }
+
+  @media (max-width: 1200px) {
+    background-size: calc(960px + (100vw - 960px) / 2);
+  }
 }
