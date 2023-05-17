@@ -1,0 +1,32 @@
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 130px;
+}
+
+.logos p {
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  color: #022543;
+  letter-spacing: -0.42px;
+  text-align: center;
+  line-height: 16.73px;
+  text-transform: uppercase;
+}
+
+.logo-text p {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}

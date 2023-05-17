@@ -15,16 +15,14 @@
   font-style: normal;
   font-size: 60px;
   color: #ffffff;
-  text-align: center;
   text-transform: uppercase;
+  padding-top: 210px;
 }
 
 .l-brand {
-  min-height: 250px;
+  min-height: 300px;
 }
 
-.l-brand-one,
-.l-brand-three {
-  position: relative;
-  right: 0;
+.l-brand-one h2 {
+  margin-left: 80px;
 }
