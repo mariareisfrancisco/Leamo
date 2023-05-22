@@ -2,6 +2,10 @@
   background: #ffffff;
   border-radius: 17.25px;
   padding: 8px 35px;
+
+  @media (max-width: 387px) {
+    margin-left: 60px;
+  }
 }
 
 .l-brand .l-engagements,

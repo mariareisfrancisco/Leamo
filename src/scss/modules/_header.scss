@@ -41,3 +41,32 @@ header img {
   top: -50px;
   right: 0;
 }
+
+@media (max-width: 387px) {
+  .glass {
+    display: none;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .burger {
+    width: 20px;
+    position: absolute;
+    top: -25px;
+    right: 0;
+  }
+}
+
+@media (min-width: 387px) {
+  .burger {
+    display: none;
+  }
+}
