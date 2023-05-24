@@ -3,7 +3,7 @@
   border-radius: 17.25px;
   padding: 8px 35px;
 
-  @media (max-width: 387px) {
+  @media (max-width: 515px) {
     margin-left: 60px;
   }
 }
@@ -27,4 +27,16 @@ a {
   border: 1.36px solid #ffffff;
   border-radius: 26.49px;
   padding: 8px 35px;
+
+  @media (max-width: 515px) {
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.67px;
+    text-align: right;
+    border: 0.91px solid #ffffff;
+    border-radius: 17.78px;
+    padding: 5px 15px;
+    margin-left: 200px;
+  }
 }

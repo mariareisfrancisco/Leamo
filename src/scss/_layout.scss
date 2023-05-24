@@ -3,6 +3,7 @@
   background-size: 100%;
   min-height: 700px;
   background-repeat: no-repeat;
+  margin-bottom: 60px;
 }
 
 .l-nav {
@@ -20,7 +21,7 @@
   align-items: center;
 }
 
-@media (max-width: 387px) {
+@media (max-width: 515px) {
   .l-main-nav {
     display: none;
   }
@@ -68,7 +69,7 @@
   }
 }
 
-@media (max-width: 387px) {
+@media (max-width: 515px) {
   .l-brand {
     background: none;
     background: url(../img/bg-brand.webp);
@@ -89,11 +90,13 @@
   background-size: 100%;
   min-height: 1000px;
   background-repeat: no-repeat;
-  @media (max-width: 387px) {
+
+  @media (max-width: 515px) {
     background: none;
     background: url(../img/main-recettes-sm.webp);
     background-size: 100%;
     background-repeat: no-repeat;
+    min-height: 640px;
   }
 }
 
@@ -101,18 +104,29 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  @media (max-width: 515px) {
+    gap: 30px;
+  }
 }
 
 .l-button-right {
   margin-top: 90px;
   margin-left: 30px;
   margin: 90px 0 130px 30px;
+
+  @media (max-width: 515px) {
+    margin: 60px 30px;
+  }
 }
 
 .l-button-left {
   margin-top: 90px;
   margin-left: 30px;
   margin: 70px 0 100px 120px;
+
+  @media (max-width: 515px) {
+    margin-left: 50px;
+  }
 }
 
 .l-brand-one {
@@ -127,6 +141,13 @@
 
   @media (max-width: 1200px) {
     background-size: calc(960px + (80vw - 960px) / 2);
+  }
+
+  @media (max-width: 515px) {
+    background: none;
+    background: url(../img/main-tensai_tea-sm.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 }
 
@@ -144,6 +165,13 @@
   @media (max-width: 1200px) {
     background-size: calc(960px + (80vw - 960px) / 2);
   }
+
+  @media (max-width: 515px) {
+    background: none;
+    background: url(../img/main-chilled-sm.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
 
 .l-brand-three {
@@ -158,5 +186,25 @@
 
   @media (max-width: 1200px) {
     background-size: calc(960px + (80vw - 960px) / 2);
+  }
+
+  @media (max-width: 515px) {
+    background: none;
+    background: url(../img/main-dame_gingembre-sm.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.l-pictures {
+  @media (max-width: 515px) {
+    display: none;
+  }
+}
+
+.l-pictures-sm img {
+  margin-bottom: 20px;
+  @media (min-width: 515px) {
+    display: none;
   }
 }

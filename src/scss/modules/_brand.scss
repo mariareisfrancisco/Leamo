@@ -31,6 +31,7 @@ p h3 {
 
 .marging {
   padding: 80px 0 80px 80px;
+  display: inline-block;
 }
 
 .l-engagements .marging {
@@ -47,11 +48,12 @@ p h3 {
 .l-brand {
   margin-bottom: 100px;
 
-  @media (max-width: 387px) {
+  @media (max-width: 515px) {
     margin-bottom: 20px;
 
     .marging {
       padding: 200px 0 0 0;
+      margin-bottom: 40px;
     }
 
     h3 {
@@ -76,12 +78,13 @@ p h3 {
 
 .l-engagements {
   margin-bottom: 100px;
+  margin-top: 70px;
 
-  @media (max-width: 387px) {
+  @media (max-width: 515px) {
     margin-bottom: 20px;
 
     .marging {
-      padding: 200px 0 0 0;
+      padding: 200px 0 40px 0;
     }
 
     .l-brand {
@@ -105,11 +108,12 @@ p h3 {
 
     .bouton {
       margin-bottom: 10px;
-      margin-right: 95px;
+      margin-right: 105px;
     }
 
     .small-engagements {
       text-align: center;
+      margin-right: 20px;
     }
   }
 }

@@ -1,18 +1,73 @@
-.recycle p {
+.l-recycle {
+  @media (max-width: 515px) {
+    background-image: linear-gradient(
+      180deg,
+      #a4be8f 30%,
+      rgba(164, 190, 143, 0) 59%
+    );
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.l-recycle p {
   font-family: "roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 25px;
   color: #282829;
-  margin-bottom: 80px;
+
+  @media (max-width: 515px) {
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 20px;
+    margin-top: 0;
+  }
 }
 
-.recycle h2 {
+.l-recycle h2 {
   margin-bottom: 100px;
+
+  @media (max-width: 515px) {
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 2.6px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+    text-transform: uppercase;
+    padding-right: 70px;
+  }
 }
 
 .small-diy {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media (max-width: 515px) {
+    display: none;
+  }
+}
+
+.big-diy {
+  @media (max-width: 515px) {
+    display: none;
+  }
+}
+
+.text-recycle img {
+  @media (min-width: 515px) {
+    display: none;
+  }
+}
+
+.small-diy-margin {
+  margin-bottom: 30px;
 }
